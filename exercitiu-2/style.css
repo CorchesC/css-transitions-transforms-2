@@ -1,0 +1,115 @@
+/* 
+.image-one {
+    width: 400px;
+    height: 300px;
+    transition: transform 1s;
+    transform-origin: (0,0);
+}
+.overlay-one {
+    background-color: rgba(0, 0, 0, 0.248);
+    position: relative;
+    text-align: center;
+    color: white;
+    opacity: 0%;
+    transition: opacity 0.3s ease-in;
+}
+.photo-card-one {
+    position: absolute;
+    width: 400px;
+    height: 300px;
+}
+.overlay-one:hover {
+    opacity: 100%;
+}
+.photo-container-one:hover .image-one {
+    transform: scale(1.2);
+} */
+
+.photo-container-one {
+    display: block;
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    border: 1px solid;
+}
+.img {
+    width: 400px;
+    height: 300px;
+
+}
+.photo {
+    width: 400px;
+    height: 300px;
+    position: relative;
+    transition: transform 0.3s;
+}
+.photo-overlay {
+    width: 400px;
+    height: 300px;  
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.391);
+    text-align: center;
+    color: white;
+    opacity: 0%;
+    transition: opacity 0.2s, transform 0.2s;
+}
+.photo:hover{
+    transform: scale(1.2,1.2);
+}
+.photo-overlay:hover {
+    opacity: 100%;
+    transform: scale(0.9,0.9);
+    
+}
+.button {
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: larger;
+    padding: 6px 40px 6px 40px;
+    border-radius: 0.5em;
+    position: relative;
+}
+
+.photo-container-two {
+    display: block;
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    border: 1px solid;
+}
+.photo {
+    width: 400px;
+    height: 300px;
+    position: relative;
+}
+.photo-overlay-two {
+    width: 400px;
+    height: 300px;  
+    position: absolute;
+    background-color: rgb(165, 165, 228);
+    text-align: center;
+    color: white; 
+}
+
+.slide .image-two {
+	transition: transform .6s ease-out;
+}
+.slide .photo-overlay-two {
+    transition: transform .6s ease-out;
+}
+
+.slide .photo-overlay-two {
+	transform: translateX(-100%);
+}
+
+.slide:hover .photo-overlay-two {
+	transform: translateX(0);
+}
+
+.slide:hover img {
+	transform: translateX(100%); 
+}
+
+

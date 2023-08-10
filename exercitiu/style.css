@@ -1,0 +1,224 @@
+.body {
+    display: grid;
+    grid-template-rows: 1fr 10fr 10fr 10fr;
+}
+.header-image {
+    margin-left: 45%;
+    transition: transform 0.5s;
+    width: 50px;
+}
+.header-image:hover {
+    transform: rotate(-20deg);
+}
+.exemplu-unu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.img-one {
+    width: 400px;
+    height: 300px;
+}
+.photo-container-one {
+    text-align: center;
+}
+.button-ex1 {
+    background-color: white;
+    border: 2px solid blue;
+    color: blue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: larger;
+    padding: 6px 40px 6px 40px;
+    transition: all 1s;
+}
+.button-ex1:hover {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5em;
+}
+
+.exemplu-doi {
+    display: block;
+    height: 300px;
+}
+.photo-container-two {
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.photo-container-two-overlay {
+    opacity: 0%;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.395);
+    position: relative;
+    transition: opacity 0.5s ease-in;
+}
+.photo-container-two-card{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+}
+.photo-container-two-image {
+    display: block;
+    width: 400px;
+    height: 300px;
+}
+.photo-container-two-overlay:hover {
+    opacity: 100%;
+}
+
+.photo-container-three {
+    display: flex;
+	flex-direction: column;
+	align-items: start;
+    margin: 100px 0 0 210px;
+}
+.photo-container-three-overlay {
+    opacity: 0%;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.395);
+    position: relative;
+    transition: opacity 0.5s ease-in;
+}
+.photo-container-three-card{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+
+}
+.photo-container-three-image {
+    display: block;
+}
+.photo-container-three-overlay:hover {
+    opacity: 100%;
+}
+.button-ex2 {
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: larger;
+    padding: 6px 40px 6px 40px;
+    transition: all 200ms;
+    border-radius: 5em;
+    position: relative;
+}
+.icon {
+    background-image: url(images/download.svg);
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    opacity: 0%;
+    transition: opacity 0.5s ease-in, transform 1s ease-out;
+    left: 50%;
+}
+.button-ex2:hover {
+    border: 2px solid rgba(255, 255, 255, 0.733);
+}
+.button-ex2:hover .icon {
+    opacity: 100%;
+    transform: translate(65px);
+}
+
+
+.exemplu-trei {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    overflow: hidden;
+}
+.button-ex3-1 {
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: larger;
+    padding: 6px 40px 6px 40px;
+    transition: all 300ms;
+    border-radius: 0.5em;
+    position: relative;
+}
+.button-ex3-1:hover {
+    background-color: blue;
+    color: white;
+}
+
+.photo-container-four {
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+    margin: 100px 0 0 210px;
+    text-align: center;
+}
+.photo-container-four-image {
+    display: block;
+    width: 400px;
+    height: 300px;
+    transition: all 0.2s ease-in;
+}
+.photo-container-four-image:hover {
+    transform: rotate(-5deg) scale(1.1,1.1);
+}
+
+
+.photo-container-five {
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+    margin: 100px 0 0 210px;
+    text-align: center;
+    overflow: hidden;
+
+}
+.container-five-boundaries {
+    display: block;
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+}
+.button-ex3-2 {
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: larger;
+    padding: 6px 40px 6px 40px;
+    transition: all 300ms;
+    border-radius: 0.5em;
+    position: relative;
+    margin-top: 120px;
+}
+.button-ex3-2:hover {
+    background-color: blue;
+    color: white;
+}
+.photo-container-five-overlay {
+    opacity: 0%;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.395);
+    position: relative;
+    transition: opacity 0.5s ease-in;
+}
+.photo-container-five-card{
+  
+    position: absolute;
+}
+.photo-container-five-image {
+    display: block;
+    transition: transform 1s;
+    transform-origin: 10% 10%;
+}
+.photo-container-five-overlay:hover {
+    opacity: 100%;
+}
+.container-five-boundaries:hover .photo-container-five-image {
+    transform: scale(1.2);
+
+   
+}
+
