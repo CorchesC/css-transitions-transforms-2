@@ -69,7 +69,7 @@
     font-size: larger;
     padding: 6px 40px 6px 40px;
     border-radius: 0.5em;
-    position: relative;
+
 }
 
 .photo-container-two {
@@ -79,20 +79,21 @@
     overflow: hidden;
     border: 1px solid;
 }
-.photo {
-    width: 400px;
-    height: 300px;
-    position: relative;
-}
+
+
 .photo-overlay-two {
     width: 400px;
     height: 300px;  
-    position: absolute;
+    position: relative;
     background-color: rgb(165, 165, 228);
     text-align: center;
     color: white; 
 }
-
+.photo-two {
+    width: 400px;
+    height: 300px;
+    position: absolute;
+}
 .slide .image-two {
 	transition: transform .6s ease-out;
 }
